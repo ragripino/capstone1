@@ -1,77 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FemmeFinesse Home</title>
-    <!-- Custom css-->
-    <link rel="stylesheet" href="home.css">
-    <!-- Icons library-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap 5.2.1-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body>  
-    <!--header section starts -->
- <header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Urbanroots</title>
+    <link rel="shortcut icon" type="image" href="images/urbanroots tree icon11.png">
+    <link rel="stylesheet" href="css/home.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
-<nav class="navbar navbar-expand-md navbar-light">
-    <div class="container-fluid"> 
-
-
-<a  href="#intro" class="navbar-brand">
-    <span class="fw-bold text-secundary">
-        FemmeFinesse
-    </span>
-</a> 
-
-<button class="nav-toggler" type="button" data-bs-toggle="collapse" data-bs-target=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-href="#">Home</a>
-<a href="#"></i> About Us</a>
-<a href="#"></i> Products</a>
-<a href="#">Contact</a>
-<div class="icons">
-    <a href="#" class="fa fa-fw fa-heart"></a>
-    <a href="#" class="fa fa-fw fa-shopping-cart"></a>
-    <a href="#" class="fa fa-fw fa-user"></a>
+  </head>
+  <body>
+       <!--start of the navbar-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="home.html"><img src="images/urbanroots tree icon11.png" alt="site icon"> <span class="text-uppercase ms-2">Urbanroots</span>
+      </a>
+      <div class="order-lg-2 nav-btns">
+        <button type="button" class="btn position-relative">
+          <i class="fa fa-user "></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+        </button>
+         <button type="button" class="btn position-relative">
+          <i class="fa fa-shopping-cart "></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">10</span>
+        </button>
+         <button type="button" class="btn position-relative">
+          <i class="fa fa-search "></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+        </button>
+      </div>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggle-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item px-2 py-2">
+            <a class="nav-link" href="#header">HOME</a>
+          </li>
+           <li class="nav-item px-2 py-2">
+            <a class="nav-link" href="#header">COLLECTION</a>
+          </li>
+           <li class="nav-item px-2 py-2">
+            <a class="nav-link" href="#header">SPECIALS</a>
+          </li>
+           <li class="nav-item px-2 py-2">
+            <a class="nav-link" href="#header">POPULAR</a>
+          </li>
+          <li class="nav-item px-2 py-2 border-0">
+            <a class="nav-link" href="#header">CONTACT</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    </div>
-</nav>
- </header>
-<!--header section ends -->
-<!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-        <script  src="js/script.js"></script>
-</body>
+   </nav>
+        
+    </nav>
+    <!--end of the navbar-->
+<!--start of the navbar-->
+  <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px">
+<div class="container h-100 d-flex align-items-center carousel-inner">
+  <div class="text-center carousel-item active">
+    <h2 class="text-captalize text-white"> Best Collection</h2>
+    <h1 class="text-uppercase py-2 fw-bold text-white">New arrivals</h1>
+    <a href="#"class=" btn mt-3 text-uppercase">shop now</a>
+  </div>
+  <div class="text-center carousel-item">
+    <h2 class="text-captalize text-white"> Best Price & Offer </h2>
+    <h1 class="text-uppercase py-2 fw-bold text-white">New Season</h1>
+    <a href="#"class=" btn mt-3 text-uppercase">buy now</a>
+  </div>
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="prev">
+  <span class="carousel-control-next-icon"></span>
+</button>
+  </header>
+    <!--end of the header-->
+     <!--collection-->
+     <section id="collection" class="py-5">
+      <div class="container">
+        <div class="title text-center">
+          <h2 class=  "position-relative-d-inline-block">New Collection</h2>
+        </div>
+        <div class="row">
+          <div class="d-flex justify-content-center mt-5">
+            <button tyoe ="button" class="btn m-2 text-dark active-filter-btn">All</button>
+          <button tyoe ="button" class="btn m-2 text-dark">Best Sellers</button>
+          <button tyoe ="button" class="btn m-2 text-dark">Features</button>
+          <button tyoe ="button" class="btn m-2 text-dark">New Arrivals</button>
+          </div>
+        </div>
+        <div class="collection-list">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <img class="card-image-top" src="images/1.jpg" alt="">
+                  <div class="card-body">
+                    <h2 class= "card-title text-center">Hoodie</h2>
+                    <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+                    <h5 class="text-center">$50,00</h5>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img class="card-image-top" src="images/1.jpg" alt="">
+                  <div class="card-body">
+                    <h2 class= "card-title text-center">Hoodie</h2>
+                    <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+                    <h5 class="text-center">$50,00</h5>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card">
+                  <img class="card-image-top" src="images/1.jpg" alt="">
+                  <div class="card-body">
+                    <h2 class= "card-title text-center">Hoodie</h2>
+                    <p class="card-text text-center">Lorem ipsum dolor sit amet.</p>
+                    <h5 class="text-center">$50,00</h5>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+
+
+
+
+      </div>
+     </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery-3.7.1.js"></script>
+  </body>
 </html>
